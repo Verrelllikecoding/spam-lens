@@ -1,0 +1,19 @@
+# Datasets: downloaded by the notebooks, never redistributed
+data/
+# Transformer weights: too large for Git (DistilBERT 269 MB, RoBERTa + SetFit 503 MB, FLAN-T5 896 MB)
+models/distilbert/
+models/roberta_setfit/
+models/flan_t5/
+models/checkpoints/
+# Review files contain dataset messages
+results/review/
+# Local environment and caches (.cache also holds the Python used by .venv)
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+*.log

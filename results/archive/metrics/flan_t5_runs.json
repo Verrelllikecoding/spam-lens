@@ -1,0 +1,131 @@
+[
+  {
+    "learning_rate": 2e-05,
+    "val_macro_f1": 0.9923424982021117,
+    "training_seconds": null,
+    "history": [
+      {
+        "epoch": 1.0,
+        "grad_norm": 10.129950523376465,
+        "learning_rate": 1.6677718832891248e-05,
+        "loss": 0.193,
+        "step": 838
+      },
+      {
+        "epoch": 1.0,
+        "eval_loss": 0.05465668439865112,
+        "eval_macro_f1": 0.9895578508872254,
+        "eval_runtime": 25.1011,
+        "eval_samples_per_second": 114.457,
+        "eval_steps_per_second": 7.171,
+        "step": 838
+      },
+      {
+        "epoch": 2.0,
+        "grad_norm": 0.01626494899392128,
+        "learning_rate": 1.1120689655172414e-05,
+        "loss": 0.0407,
+        "step": 1676
+      },
+      {
+        "epoch": 2.0,
+        "eval_loss": 0.04409635066986084,
+        "eval_macro_f1": 0.9899059433139914,
+        "eval_runtime": 25.0488,
+        "eval_samples_per_second": 114.696,
+        "eval_steps_per_second": 7.186,
+        "step": 1676
+      },
+      {
+        "epoch": 3.0,
+        "grad_norm": 0.06141763925552368,
+        "learning_rate": 5.563660477453582e-06,
+        "loss": 0.0302,
+        "step": 2514
+      },
+      {
+        "epoch": 3.0,
+        "eval_loss": 0.04733387753367424,
+        "eval_macro_f1": 0.9902540319454136,
+        "eval_runtime": 25.181,
+        "eval_samples_per_second": 114.094,
+        "eval_steps_per_second": 7.148,
+        "step": 2514
+      },
+      {
+        "epoch": 4.0,
+        "grad_norm": 0.007894865237176418,
+        "learning_rate": 6.631299734748011e-09,
+        "loss": 0.0228,
+        "step": 3352
+      },
+      {
+        "epoch": 4.0,
+        "eval_loss": 0.04457161948084831,
+        "eval_macro_f1": 0.9923424982021117,
+        "eval_runtime": 25.1126,
+        "eval_samples_per_second": 114.405,
+        "eval_steps_per_second": 7.168,
+        "step": 3352
+      }
+    ],
+    "note": "Recovered from checkpoint-3352/trainer_state.json; the chain was interrupted during the lr=1e-4 run (2026-11-10), before any test-split step. Wall time about 2h27m from the console log, not measured by the script."
+  },
+  {
+    "learning_rate": 0.0001,
+    "val_macro_f1": 0.9912982775980896,
+    "training_seconds": 4163.337089899927,
+    "history": [
+      {
+        "loss": 0.1174,
+        "grad_norm": 11.945988655090332,
+        "learning_rate": 8.338859416445624e-05,
+        "epoch": 1.0,
+        "step": 838
+      },
+      {
+        "eval_loss": 0.04138682410120964,
+        "eval_macro_f1": 0.9912982775980896,
+        "eval_runtime": 25.3535,
+        "eval_samples_per_second": 113.318,
+        "eval_steps_per_second": 7.1,
+        "epoch": 1.0,
+        "step": 838
+      },
+      {
+        "loss": 0.0291,
+        "grad_norm": 0.007410942576825619,
+        "learning_rate": 5.560344827586207e-05,
+        "epoch": 2.0,
+        "step": 1676
+      },
+      {
+        "eval_loss": 0.03895365074276924,
+        "eval_macro_f1": 0.9906020441653404,
+        "eval_runtime": 25.3188,
+        "eval_samples_per_second": 113.473,
+        "eval_steps_per_second": 7.109,
+        "epoch": 2.0,
+        "step": 1676
+      },
+      {
+        "train_runtime": 4137.5999,
+        "train_samples_per_second": 12.96,
+        "train_steps_per_second": 0.81,
+        "total_flos": 2385405938245800.0,
+        "train_loss": 0.0732749857026239,
+        "epoch": 2.0,
+        "step": 1676
+      },
+      {
+        "eval_loss": 0.04138682410120964,
+        "eval_macro_f1": 0.9912982775980896,
+        "eval_runtime": 25.4516,
+        "eval_samples_per_second": 112.881,
+        "eval_steps_per_second": 7.072,
+        "epoch": 2.0,
+        "step": 1676
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "roberta_setfit": {
+    "threshold": 0.83,
+    "macro_f1": 0.9867732777904854,
+    "ham_fpr": 0.009749303621169917,
+    "spam_recall": 0.9832985386221295,
+    "threshold_low": 0.6,
+    "temperature": 1.196000000000001
+  },
+  "flan_t5": {
+    "threshold": 0.5,
+    "macro_f1": 0.989906002013784,
+    "ham_fpr": 0.008356545961002786,
+    "spam_recall": 0.988169798190675,
+    "threshold_low": 0.22,
+    "temperature": 1.6900000000000015
+  }
+}

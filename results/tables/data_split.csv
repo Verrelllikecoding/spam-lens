@@ -1,0 +1,5 @@
+split,ham,spam,total
+train,6703,6703,13406
+validation,1436,1437,2873
+test,1437,1436,2873
+unused_ham_pool,29293,0,29293

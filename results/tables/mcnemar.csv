@@ -1,0 +1,11 @@
+model_a,model_b,only_a_correct,only_b_correct,p_value,significant
+tfidf_nb,tfidf_lr,13,65,1.807703105408552e-09,True
+tfidf_nb,distilbert,17,79,9.941513465364027e-11,True
+tfidf_nb,roberta_setfit,23,72,4.757482385242055e-07,True
+tfidf_nb,flan_t5,13,71,7.863919065998752e-11,True
+tfidf_lr,distilbert,15,25,0.1538599441628321,False
+tfidf_lr,roberta_setfit,22,19,0.755228657504631,False
+tfidf_lr,flan_t5,18,24,0.44079906734259566,False
+distilbert,roberta_setfit,25,12,0.04703102743951604,True
+distilbert,flan_t5,17,13,0.5846647117286922,False
+roberta_setfit,flan_t5,12,21,0.16275565745308995,False

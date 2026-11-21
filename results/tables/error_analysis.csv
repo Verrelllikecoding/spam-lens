@@ -1,0 +1,9 @@
+category,count,false_positives,false_negatives
+Conversational spam / romance / job scam,11,0,11
+Short or ambiguous message,7,6,1
+Transactional / OTP resembles promotion,5,2,3
+Plain promotion missed,3,0,3
+Probable published-label noise,3,1,2
+Non-English or code-mixed,2,1,1
+Obfuscated wording,1,0,1
+total,32,10,22

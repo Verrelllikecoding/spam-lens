@@ -1,0 +1,25 @@
+model,params,mean_test_score,std_test_score
+tfidf_lr,{'classifier__C': 30},0.9867968852051987,0.0009597116207932851
+tfidf_lr,{'classifier__C': 10},0.986423910373226,0.0012820561924218078
+tfidf_lr,{'classifier__C': 4},0.9856779103161653,0.0011206813740370282
+tfidf_lr,{'classifier__C': 1},0.983887666199512,0.0014983433348734426
+tfidf_nb,"{'classifier__alpha': 0.5, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 2]}",0.9701618381884487,0.0029729088475634775
+tfidf_nb,"{'classifier__alpha': 0.05, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 2]}",0.9700078756274767,0.0030977006574867765
+tfidf_nb,"{'classifier__alpha': 0.05, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 2]}",0.9697130562245284,0.001919662002871131
+tfidf_nb,"{'classifier__alpha': 0.1, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 2]}",0.9696395935964096,0.0022798103009406614
+tfidf_nb,"{'classifier__alpha': 1.0, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 2]}",0.9694894750738967,0.0030427673083782015
+tfidf_nb,"{'classifier__alpha': 0.1, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 2]}",0.9693359684207092,0.003656748794675622
+tfidf_nb,"{'classifier__alpha': 0.01, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 2]}",0.9685908944168695,0.002229925295687952
+tfidf_nb,"{'classifier__alpha': 0.01, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 2]}",0.968511855589014,0.0037862727935616207
+tfidf_nb,"{'classifier__alpha': 0.5, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 1]}",0.9656811251617355,0.003707935477049221
+tfidf_nb,"{'classifier__alpha': 0.5, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 1]}",0.9653849769692158,0.00409601524774738
+tfidf_nb,"{'classifier__alpha': 0.5, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 2]}",0.9652980739469846,0.0035260974294476833
+tfidf_nb,"{'classifier__alpha': 1.0, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 1]}",0.9652349698759469,0.0036213156052989333
+tfidf_nb,"{'classifier__alpha': 0.1, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 1]}",0.9645628861216109,0.0025598764681983043
+tfidf_nb,"{'classifier__alpha': 1.0, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 1]}",0.9645593851389943,0.0025298233666363615
+tfidf_nb,"{'classifier__alpha': 0.1, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 1]}",0.9629957750490232,0.002764022377687653
+tfidf_nb,"{'classifier__alpha': 1.0, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 2]}",0.9628294668462616,0.003002637289313863
+tfidf_nb,"{'classifier__alpha': 0.05, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 1]}",0.9626957438745949,0.0025384049975451786
+tfidf_nb,"{'classifier__alpha': 0.05, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 1]}",0.9610539638536959,0.002305491913939001
+tfidf_nb,"{'classifier__alpha': 0.01, 'tfidf__min_df': 2, 'tfidf__ngram_range': [1, 1]}",0.9582893744928764,0.003069884735185909
+tfidf_nb,"{'classifier__alpha': 0.01, 'tfidf__min_df': 1, 'tfidf__ngram_range': [1, 1]}",0.957915070690143,0.0019773320317035764
