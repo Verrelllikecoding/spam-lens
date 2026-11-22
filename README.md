@@ -12,7 +12,7 @@ COMP6885001 Natural Language Processing project. SpamLens compares two classical
 | RoBERTa + SetFit | 0.9843 | **99.43%** | 97.42% | **0.56%** |
 | FLAN-T5 | 0.9875 | 99.30% | 98.19% | 0.70% |
 
-All numbers come from `results/tables/`, which the notebooks write. More tables: realistic 13.4% spam rate, McNemar tests, ambiguous examples, robustness, and error analysis.
+All numbers come from `results/tables/`, which the notebooks write. More tables: realistic 13.4% spam rate, McNemar tests, ambiguous examples, robustness, and DistilBERT error analysis. The hyperparameter searches (`classical_tuning.csv`, `setfit_selection.csv`, `flan_t5_selection.csv`) come from earlier experiments; the notebooks train with the best values found there.
 
 ## Project structure
 
@@ -21,10 +21,9 @@ app.py                          Streamlit app (single file)
 requirements.txt                Packages for running the app
 notebooks/
   traditional_models.ipynb      Data download and curation, Naive Bayes, Logistic Regression
-  transformer_models.ipynb      DistilBERT, RoBERTa + SetFit, FLAN-T5, comparison of all five
+  transformer_models.ipynb      DistilBERT, RoBERTa + SetFit, FLAN-T5, comparison, robustness, error analysis
 models/                         Saved models and calibration (thresholds, temperatures)
 results/tables/, figures/       Results written by the notebooks
-results/error_analysis.md       Categorized errors of DistilBERT
 ```
 
 ## Run the app on your computer
@@ -34,8 +33,8 @@ Requirements: Python 3.12 and about 3 GB of free disk space.
 1. Clone the repository and open the folder.
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/Verrelllikecoding/spam-lens.git
+   cd <spam-lens>
    ```
 
 2. Create a virtual environment and install the packages.
@@ -49,7 +48,7 @@ Requirements: Python 3.12 and about 3 GB of free disk space.
 
 3. Add the transformer weights. They are too large for GitHub (about 1.6 GB). Download the three folders `distilbert`, `roberta_setfit` and `flan_t5` from [Google Drive](https://drive.google.com/drive/folders/1ZaPDtUqgwVaMBn2mMw2JV5uM0hezqQnc?usp=sharing) and put them inside `models/`. Without them the app still runs with the two TF-IDF models.
 
-4. Start the app. It opens at http://localhost:8501.
+4. Start the app. It opens at local host.
 
    ```bash
    .venv\Scripts\python -m streamlit run app.py
